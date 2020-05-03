@@ -3,10 +3,10 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"vendor/bundle/ruby/2.6.0/gems/minima-2.5.1/_sass/minima.scss",
-		"vendor/bundle/ruby/2.6.0/gems/minima-2.5.1/_sass/minima/_base.scss",
-		"vendor/bundle/ruby/2.6.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
-		"vendor/bundle/ruby/2.6.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+		"vendor/bundle/ruby/2.7.0/gems/minima-2.5.1/_sass/minima.scss",
+		"vendor/bundle/ruby/2.7.0/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"vendor/bundle/ruby/2.7.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"vendor/bundle/ruby/2.7.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"@import \"minima\";\n\n\n/**\n * Images\n */\n\nimg {\n  max-width: 70%;\n  vertical-align: middle;\n}\n\n@include media-query($on-palm) {\n  img {\n    max-width: 100%;\n    vertical-align: middle;\n  }\n}\n\n",
