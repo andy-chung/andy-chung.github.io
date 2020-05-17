@@ -275,7 +275,7 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .il { color: #099; }
 
 /** Images */
-img { max-width: 70%; vertical-align: middle; }
+img { max-width: 66%; vertical-align: middle; }
 
 @media screen and (max-width: 600px) { img { max-width: 100%; vertical-align: middle; } }
 
