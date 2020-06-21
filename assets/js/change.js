@@ -4,7 +4,7 @@ firstImage.addEventListener('click', change);
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
-  let randomInt = getRandomInt(8);
+  let randomInt = getRandomInt(7);
   switch (randomInt) {
     case 0:
       firstImage.setAttribute('src', '/assets/images/image000.jpg');
@@ -26,9 +26,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
       break;
     case 6:
       firstImage.setAttribute('src', '/assets/images/image600.jpg');
-      break;
-    case 7:
-      firstImage.setAttribute('src', '/assets/images/image700.jpg');
       break;
     default:
       firstImage.setAttribute('src', '/assets/images/image000.jpg');
@@ -57,8 +54,6 @@ function change() {
     firstImage.setAttribute('src', '/assets/images/image500.jpg');
   else if (isrc == '/assets/images/image500.jpg')
     firstImage.setAttribute('src', '/assets/images/image600.jpg');
-  else if (isrc == '/assets/images/image600.jpg')
-    firstImage.setAttribute('src', '/assets/images/image700.jpg');
   else
     firstImage.setAttribute('src', '/assets/images/image000.jpg');
 }
